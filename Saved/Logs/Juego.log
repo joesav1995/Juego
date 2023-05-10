@@ -1261,3 +1261,22 @@ Script call stack:
 [2023.05.10-08.48.51:905][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
 [2023.05.10-08.48.51:922][955]LogPlayLevel: Display: Destroying online subsystem :Context_11
 [2023.05.10-08.48.55:063][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.10-09.47.03:081][999]LogDerivedDataCache: C:/Users/teres/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.052 and deleted 0 file(s) with total size 0 MiB.
+[2023.05.10-09.58.30:354][ 52]LogHttp: Warning: 00000B066461A000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA663AED5-44DD-EBB4-9EA6-86AB019789E0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=985961804683c791ce7354922c9df913%7C9ee6ddf6910641598f3047358b2264a8%7C86dd4a0f-77f9-4002-98c1-b3f89c64dc43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xb06038d0120 [can pipeline])
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.217.38.249) port 443 (#1))
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.05.10-09.58.30:366][ 52]LogHttp: Warning: 00000B066461A000: libcurl info message cache 7 (Closing connection 1)
+[2023.05.10-09.58.30:367][ 52]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA663AED5-44DD-EBB4-9EA6-86AB019789E0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=985961804683c791ce7354922c9df913%7C9ee6ddf6910641598f3047358b2264a8%7C86dd4a0f-77f9-4002-98c1-b3f89c64dc43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.05.10-10.14.59:034][271]BlueprintLog: New page: Compilar Opciones
+[2023.05.10-10.14.59:237][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2023.05.10-10.15.00:098][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Opciones" FILE="../../../../../../Users/teres/Documents/GitHub/Juego/Content/Menu/Opciones.uasset" SILENT=true
+[2023.05.10-10.15.00:132][342]LogSavePackage: Moving output files for package: /Game/Menu/Opciones
+[2023.05.10-10.15.00:133][342]LogSavePackage: Moving '../../../../../../Users/teres/Documents/GitHub/Juego/Saved/OpcionesBD98BE6F4910814B1F4D4D94140BF621.tmp' to '../../../../../../Users/teres/Documents/GitHub/Juego/Content/Menu/Opciones.uasset'
+[2023.05.10-10.15.00:149][342]AssetCheck: New page: Asset Save: Opciones
+[2023.05.10-10.15.00:149][342]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Opciones.Opciones
